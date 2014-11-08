@@ -1,12 +1,1 @@
-<<<<<<< HEAD
-this is master changes.
-1
-2
-3
-4
-5
-=======
-this is frst commit file
-this is rebase
-bviudvjkxhv
->>>>>>> f77269735b1ffe8b373ce27bf815b7765874aab4
+this is BRANCH CODE.
