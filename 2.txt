@@ -2,10 +2,4 @@ this is dev 2 commit.
 this is branch1 commit.
 12345
 
-<<<<<<< Updated upstream
-this is to check stash.
 
-this change is after stash.
-=======
-this is to check stash.
->>>>>>> Stashed changes
