@@ -1,7 +1,1 @@
-<<<<<<< Updated upstream
-this is branch.
-=======
-this is branch.
-master 
-checking master for stash
->>>>>>> Stashed changes
+this is cherry pick
