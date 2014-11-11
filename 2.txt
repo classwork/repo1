@@ -3,9 +3,14 @@ this is branch1 commit.
 12345 this is branch 1changes for stash
 
 
+<<<<<<< Updated upstream
 
 
 
 
 456
 789
+=======
+123
+456
+>>>>>>> Stashed changes
