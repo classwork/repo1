@@ -1,0 +1,36 @@
+<project name="vnr1" basedir="." default="work">
+
+<target name="init">
+<mkdir dir="e:/narasimha"/>
+<echo message="create e:/narasimha"/>
+<mkdir dir="e:/narasimha/lib"/>
+<echo message="create e:/narasimha/lib"/>
+<mkdir dir="e:/narasimha/workspace"/>
+<echo message="create e:/narasimha/workspace"/>
+<mkdir dir="e:/narasimha/bin"/>
+<echo message="create e:/narasimha/bin"/>
+<mkdir dir="e:/narasimha/temp"/>
+<echo message="create e:/narasimha/temp"/>
+<copydir src="d:/vnr/vnrproject1" dest="e:/narasimha/lib"/>
+
+</target>
+<target name="clean">
+<delete dir="e:/narsimha"/>
+<echo message="clean the directory"/>
+</target>
+<target name="work" depends="clean,init,jar,war,ear,zip">
+<echo message="call work"/>
+</target>
+<target name="zip">
+<zip destfile="e:/narasimha/lib/test.zip" basedir="d:/vnr/vnrproject1"/>
+</target>
+<target name="jar">
+<jar destfile="e:/narasimha/lib/test1.jar" basedir="d:/vnr/vnrproject1"/>
+</target>
+<target name="war">
+<war destfile="e:/narasimha/lib/test2.war" webxml="d:/vnr/narasimha.xml"/>
+</target>
+<target name="ear">
+<ear destfile="e:/narasimha/lib/test3.ear" appxml="d:/vnr/narasimha.xml"/>
+</target>
+</project>
