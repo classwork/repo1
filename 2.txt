@@ -4,8 +4,11 @@ this is branch1 commit.
 12345
 this is to test changelog.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 jbcxjvb
 >>>>>>> branch1
+=======
+>>>>>>> d6128a8... commiting changes for jenkins
 =======
 >>>>>>> d6128a8... commiting changes for jenkins
