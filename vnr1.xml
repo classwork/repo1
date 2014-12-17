@@ -1,0 +1,6 @@
+<project name="vnr" basedir="." default="narasimha">
+
+<target name="narasimha">
+<echo message="this is vnr"/>
+</target>
+</project>
