@@ -1,10 +1,4 @@
 
-this is branch.
-master 
-checking master for stash
-this is to test changelog.
-this is to test jenkins.\
-THIS CHANGES FROM IN GITHUB
 
 this is BRANCH CODE.
 adsasdkjsb
