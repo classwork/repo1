@@ -7,10 +7,4 @@ adsasdkjsb
 narsimha
 merging
 rebase
-<<<<<<< HEAD
-
-
-cherrypick
-=======
->>>>>>> cd16755... m merge
-
+testing cherrypick
